@@ -1,0 +1,74 @@
+[
+  {
+    "pregunta": " ¿De qué nacionalidad es el campeón olímpico de esquí, en 1972, Gustavo Thoeni?",
+    "respuestas": ["Croata ", "Ruso ", "Italiano "],
+    "contestacion": [" Incorrecto.", " Incorrecto.", " Correcto"],
+    "correcta": 2
+  },
+  {
+    "pregunta": " ¿Cómo se llama la deportista que obtuvo más medallas olímpicas en la disciplina Ciclismo de ruta?",
+    "respuestas": [
+      "Hanka Kupfernagel ",
+      "Sara Carrigan ",
+      "Leontien Van Moorsel "
+    ],
+    "contestacion": [" Incorrecto.", " Incorrecto.", " Correcto"],
+    "correcta": 2
+  },
+  {
+    "pregunta": " ¿Qué esquiador sueco ganó dos medallas de oro en los Juegos Olímpicos de Invierno de 1890 en Lake Placid?",
+    "respuestas": [
+      "Carlos Monzón ",
+      "Ingemar Stenmark ",
+      "Julio Cesar Chávez "
+    ],
+    "contestacion": [" Incorrecto.", " Correcto", " Incorrecto."],
+    "correcta": 1
+  },
+  {
+    "pregunta": " ¿Qué mascotas fueron escogidas para los juegos paralímpicos 2014?",
+    "respuestas": [
+      "Reno con bufanda ",
+      "Hombrecito en esquí ",
+      "Rayo de sol y muñeco de nieve "
+    ],
+    "contestacion": [" Incorrecto.", " Incorrecto.", " Correcto"],
+    "correcta": 2
+  },
+  {
+    "pregunta": " ¿Qué atleta italiano ganó la medalla de oro en los 200 metros llanos, en los Juegos Olímpicos de Roma de 1960?",
+    "respuestas": ["Habbas Hilmi ", "Fuad I ", "Livio Berruti "],
+    "contestacion": [" Incorrecto.", " Incorrecto.", " Correcto"],
+    "correcta": 2
+  },
+  {
+    "pregunta": " ¿De qué jugador de fútbol el ex velocista Ben Johnson fue entrenador personal, en 1997?",
+    "respuestas": ["George Best ", "Maradona ", "Cannigia "],
+    "contestacion": [" Incorrecto.", " Correcto!", " Incorrecto."],
+    "correcta": 1
+  },
+  {
+    "pregunta": " ¿Cual de estos deportes se practica dentro del agua?",
+    "respuestas": ["Natación ", "Gimnasia ", "Esgrima "],
+    "contestacion": [" Correcto", " Incorrecto.", " Incorrecto."],
+    "correcta": 0
+  },
+  {
+    "pregunta": " En los Juegos de Los Ángeles, en 1984, ¿cuántos países del bloque soviético no participaron en las competencias?",
+    "respuestas": ["15 ", "30 ", "21 "],
+    "contestacion": [" Correcto", " Incorrecto.", " Incorrecto."],
+    "correcta": 0
+  },
+  {
+    "pregunta": " ¿En qué ciudad se celebraron los Juegos Olímpicos de 1984?",
+    "respuestas": ["Los Ángeles ", "Barcelona ", "Atlanta "],
+    "contestacion": [" Correcto", " Incorrecto.", " Incorrecto."],
+    "correcta": 0
+  },
+  {
+    "pregunta": " 'Qué deporte debutó como deporte olímpico en los Juegos de Berlín 1936?",
+    "respuestas": ["Balonmano ", "Tenis ", "Natacíon "],
+    "contestacion": [" Correcto", " Incorrecto.", " Incorrecto."],
+    "correcta": 0
+  }
+]
