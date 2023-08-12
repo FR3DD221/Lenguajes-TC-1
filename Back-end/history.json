@@ -58,23 +58,5 @@
     "shoots": 7,
     "misses": 3,
     "result": "Victoria"
-  },
-  {
-    "namePlayer": "fredd",
-    "shoots": 0,
-    "misses": 0,
-    "result": "Derrota"
-  },
-  {
-    "namePlayer": "fredd",
-    "shoots": 0,
-    "misses": 0,
-    "result": "Derrota"
-  },
-  {
-    "namePlayer": "Allan",
-    "shoots": 0,
-    "misses": 0,
-    "result": "Derrota"
   }
 ]
