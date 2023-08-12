@@ -94,12 +94,16 @@ function handleQS() {
       modal4.addEventListener("click", function () {
         sendData(nameId, asserts, misses, "Victoria");
         nameId = "";
+        asserts = 0;
+        misses = 0;
       });
     } else {
       modal5.showModal();
       modal5.addEventListener("click", function () {
         sendData(nameId, asserts, misses, "Derrota");
         nameId = "";
+        asserts = 0;
+        misses = 0;
       });
     }
 
@@ -115,8 +119,6 @@ function handleQS() {
     answer3.style.display = "none";
 
     actualQuestion = 0;
-    asserts = 0;
-    misses = 0;
   }
 
   questionLabel.innerText =
@@ -169,13 +171,12 @@ function sendData(name, asserts, misses, result) {
     result: result,
   };
 
-
   fetch("http://localhost:3001/data", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(data)
+    body: JSON.stringify(data),
   });
 }
 
