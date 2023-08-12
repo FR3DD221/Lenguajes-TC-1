@@ -66,9 +66,57 @@
     "correcta": 0
   },
   {
-    "pregunta": " 'Qué deporte debutó como deporte olímpico en los Juegos de Berlín 1936?",
+    "pregunta": " ¿Qué deporte debutó como deporte olímpico en los Juegos de Berlín 1936?",
     "respuestas": ["Balonmano ", "Tenis ", "Natacíon "],
     "contestacion": [" Correcto", " Incorrecto.", " Incorrecto."],
     "correcta": 0
+  },
+  {
+    "pregunta": " ¿A qué montaña, la más elevada de áfrica, pertenecen los picos volcánicos Kibo y Mawensi?",
+    "respuestas": ["Aconcagua ", "Kilimanjaro ", "Everest "],
+    "contestacion": [" Incorrecto.", " Correcto!", " Incorrecto."],
+    "correcta": 1
+  },
+  {
+    "pregunta": " ¿De qué océano forma parte el mar de Bering?",
+    "respuestas": ["Índico ", "Pacífico ", "Atlántico "],
+    "contestacion": [" Incorrecto.", " Correcto!", " Incorrecto."],
+    "correcta": 1
+  },
+  {
+    "pregunta": " ¿Cuál es el mayor río que fluye por Brasil?",
+    "respuestas": ["Po ", "Amazonas ", "Rio de Plata "],
+    "contestacion": [" Incorrecto.", " Correcto!", " Incorrecto."],
+    "correcta": 1
+  },
+  {
+    "pregunta": " ¿Cuál es la capital de Irlanda?",
+    "respuestas": ["Mascat ", "Argel ", "Dublín "],
+    "contestacion": [" Incorrecto.", " Incorrecto.", " Correcto!"],
+    "correcta": 2
+  },
+  {
+    "pregunta": " ¿Cuál es la cima más elevada de las antiguas repúblicas soviéticas?",
+    "respuestas": ["Everest ", "Teide ", "Ismail Samani "],
+    "contestacion": [" Incorrecto.", " Incorrecto.", " Correcto!"],
+    "correcta": 2
+  },
+  {
+    "pregunta": " ¿Qué sistema montañoso se extiende a lo largo de la frontera septentrional de la República Checa?",
+    "respuestas": ["Pirineos ", "Himalaya ", "Sudetes "],
+    "contestacion": [" Incorrecto.", " Incorrecto.", " Correcto!"],
+    "correcta": 2
+  },
+  {
+    "pregunta": " ¿Cuál es la cima más alta en la cordillera centroeuropea Sudetes?",
+    "respuestas": ["Everest ", "Sriezka ", "Filtz Roy "],
+    "contestacion": [" Incorrecto.", " Correcto!", " Incorrecto."],
+    "correcta": 1
+  },
+  {
+    "pregunta": " ¿En qué país se encuentra el río Arkansas?",
+    "respuestas": ["Francia ", "Paraguay ", "Estados Unidos "],
+    "contestacion": [" Incorrecto.", " Incorrecto.", " Correcto!"],
+    "correcta": 2
   }
 ]

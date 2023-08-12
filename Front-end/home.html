@@ -7,6 +7,7 @@
         <center><img id="logo" class="imagen" src="logo.png" width="400"> </center>
         <center><input id="entrada" maxlength="20" type="text" placeholder="Ingrese su ID (maximo 20 caracteres)" class="input"></input></center>
         <center><button id="playBTN" class="Boton">JUGAR▶️</button></center>
+        <center><button id="historyBTN" class="Boton">Historial📃</button></center>
 
         <h2!Elementos de la pantalla del juego>
         <center><label class="firstLabel" id="playerName" style="display: none;"></label></center>
@@ -15,32 +16,38 @@
         <center><button id="answer2" class="Boton2" style="display: none;"></button></center>
         <center><button id="answer3" class="Boton2" style="display: none;"></button></center>
 
-
-        <dialog id="errorID" onclick="close()" style="background-color: #cc0000;">
-            <section>
-                <h2 style="font-size: xx-large;" class="secondLabel">Error, no has ingresado un ID</h2>
-                <footer>
-                    <h2 style="font-size: large;" class="secondLabel">Haz click para cerrar este aviso</h2>
-                </footer>
-            </section>
+        <dialog id="wrongAns" onclick="close()" class="dialog1">
+            <h2>Ouch!!</h2>
+            <p>Respuesta incorrecta</p>
+            <p>Sigue intentandolo, tu puedes!</p>
         </dialog>
 
-        <dialog id="wrongAns" onclick="close()" style="background-color: #cc0000;">
-            <section>
-                <h2 style="font-size: xx-large;" class="secondLabel">Respuesta incorrecta</h2>
-                <footer>
-                    <h2 style="font-size: large;" class="secondLabel">Sigue intentando</h2>
-                </footer>
-            </section>
+        <dialog id="assertAns" onclick="close()" class="dialog2">
+            <h2>WOW!!</h2>
+            <p>Respuesta correcta</p>
+            <p>Continua de esa manera!</p>
         </dialog>
 
-        <dialog id="assertAns" onclick="close()" style="background-color: #86f572;">
-            <section>
-                <h2 style="font-size: xx-large;" class="secondLabel">Respuesta correcta</h2>
-                <footer>
-                    <h2 style="font-size: large;" class="secondLabel">Sigue sigue así</h2>
-                </footer>
-            </section>
+        <dialog id="errorID" onclick="close()" class="dialog1">
+            <h2>Error</h2>
+            <p>No has ingresado ID, por favor ingresa uno si deseas jugar</p>
+            <p>Haz click para cerrar esta ventana</p>
+        </dialog>
+
+        <dialog id="lost" onclick="close()" class="dialog1">
+            <h2>Derrota</h2>
+            <p>Has acertado menos de 6 preguntas</p>
+            <p>Juega otra vez</p>
+        </dialog>
+
+        <dialog id="win" onclick="close()" class="dialog2">
+            <h2>VICTORIA!!</h2>
+            <p>Has acertado 6 o más preguntas</p>
+            <p>Continua con esa racha</p>
+        </dialog>
+
+        <dialog id="hs" onclick="close()" class="dialog3", style="font-size: xx-large;">
+            <h2>Historial</h2>
         </dialog>
         
         <script src="./index.js"></script>
